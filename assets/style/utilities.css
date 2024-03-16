@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+:root{
+    --bs-body-font-family:"Roboto", sans-serif;
+    --red:'#ff0000';
+    --titleOrange:#EA7408;
+    --footerCOlor:#748CE1;
+}
+
+
+.headers{
+    font-weight: 500;
+    font-family: "Roboto Slab", serif !important;
+}
+.special-style{
+    color: var(--titleOrange);
+}
+.title-space{
+    background-color: var(--titleOrange);
+    width: 100px;
+    height: 2px;
+}
+
+.text-decoration{
+    text-align: justify;
+}
+
+
+
+
+
+/* UTLIESI */
+
+.pt-10{
+    padding-top: 30px;
+}
+.footer{
+    background-color: var(--footerCOlor);
+    color: #ffffff;  
+}
+
+.footer ul li{
+    list-style: none;
+    line-height:28px;
+}
+.social-link-items{
+    display: flex;
+    gap:15px;
+    margin-top: 14px;
+}
+.social-link-titles li >a{
+  color:#fff;
+  text-decoration: none;
+}
