@@ -1,0 +1,123 @@
+:root{
+    --icon-blue:#088BEA;
+}
+
+.address{
+    display: flex;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+    margin-top: 35px;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%; */
+}
+.address iframe{
+    width: 600px;
+    height: 720px;
+}
+.condact-detail{
+    border: 1px solid  hsl(0, 3%, 87%);
+    padding-left: 30px;
+    padding-top: 15px;
+    min-width: 400px;
+    padding-right: 15px;
+}
+
+.condact-detail h4{
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+.condact-detail svg{
+    color:var(--icon-blue);
+}
+.company-address {
+    display: flex;
+    padding-top: 14px;
+}
+.company-address p{
+    width: 400px;
+    padding-left:14px;
+}
+.company-contacts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contacts-parent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* contact form */
+.contact-form{
+  margin-top: 35px;
+}
+.relative{
+    position: relative;
+}
+
+.relative input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border:1px solid #088BEA;
+    margin: 10px 0px;
+    color:#4f4b4b;  
+}
+
+.relative label{
+    position: absolute;
+    top: 22px;
+    left: 14px;
+    color:gray;
+}
+.userInput:focus ~ label,
+.userInput:valid ~ label
+{
+    top: -1.250px;
+    background-color: white;
+    color: var(--icon-blue);
+    transition: 0.2s;
+}
+
+
+textarea{
+    border:1px solid #088BEA;
+    margin-top: 12px;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    color:#4f4b4b;
+}
+
+textarea:focus ~ label,
+textarea:valid ~ label{
+    top: -8.5px;
+    background-color: white;
+    color: var(--icon-blue);
+
+}
+#sendBtn{
+    background-color: var(--icon-blue);
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+    padding: 10px 35px;
+    border-radius: 12px;
+}
+.anchor-links{
+    color: #000;
+    text-decoration: none;
+}
+
+/* responsive */
+@media screen and (max-width:413px) {
+    .condact-detail h4 {
+        font-size: 20px;
+    }
+    .address iframe{
+        width: 100%;
+        height: 500px;
+    }
+}
