@@ -1,0 +1,42 @@
+.product-facility {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.facility-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 400px;
+    margin-top: 25px;
+    height: 230px;
+    gap: 14px;
+    justify-content: center;
+    background-color: #fff;
+    text-align: justify;
+}
+
+
+.facility-product img {
+    width: 100%;
+    height: 100%;
+}
+.facility-product p{
+    padding: 0px 10px ;
+}
+
+#fourthimg{
+    width: 40%;
+}
+#heightGauge{
+    width: 70%;
+}
+#magneticStand{
+    width: 60%;
+}
+#imagesarange{
+    width: 80%;
+}
