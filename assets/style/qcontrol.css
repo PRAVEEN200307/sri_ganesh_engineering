@@ -21,8 +21,8 @@
 
 
 .facility-product img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 .facility-product p{
     padding: 0px 10px ;
@@ -30,13 +30,39 @@
 
 #fourthimg{
     width: 40%;
+    height: 63%;
 }
 #heightGauge{
     width: 70%;
+    height: 80%;
 }
 #magneticStand{
     width: 60%;
 }
-#imagesarange{
+#imagesarange {
+    width: 48%;
+    height: 72%;
+}
+#thirdimg{
+    height: 60%;
     width: 80%;
 }
+
+.certificate-images{
+    display: flex;
+    gap: 35px;
+    margin:35px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.certificate-images :last-child{
+    border: 1px solid #e2e1e1;
+}
+
+@media only screen and (max-width:412px) {
+    h3{
+        font-size:18px;
+    }
+}
+
+
