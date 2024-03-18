@@ -24,45 +24,54 @@
     width: 80%;
     height: 80%;
 }
-.facility-product p{
-    padding: 0px 10px ;
+
+.facility-product p {
+    padding: 0px 10px;
 }
 
-#fourthimg{
+#fourthimg {
     width: 40%;
     height: 63%;
 }
-#heightGauge{
+
+#heightGauge {
     width: 70%;
     height: 80%;
 }
-#magneticStand{
+
+#magneticStand {
     width: 60%;
 }
+
 #imagesarange {
     width: 48%;
     height: 72%;
 }
-#thirdimg{
+
+#thirdimg {
     height: 60%;
     width: 80%;
 }
 
-.certificate-images{
+#dialGuage {
+    width: 80%;
+    height: 60%;
+}
+
+.certificate-images {
     display: flex;
     gap: 35px;
-    margin:35px 0px;
+    margin: 35px 0px;
     align-items: center;
     justify-content: center;
 }
-.certificate-images :last-child{
+
+.certificate-images :last-child {
     border: 1px solid #e2e1e1;
 }
 
 @media only screen and (max-width:412px) {
-    h3{
-        font-size:18px;
+    h3 {
+        font-size: 18px;
     }
 }
-
-
