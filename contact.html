@@ -109,7 +109,7 @@
                 </div>
                 <!-- form -->
                 <div>
-                    <form class="contact-form" name="emailForm">
+                    <form class="contact-form" name="emailForm" id="contactForm">
                         <!-- name -->
                         <div class="relative">
                             <input type="text" name="fullName" id="fullName" class="userInput" required>
@@ -139,7 +139,7 @@
             </div>
         </div>
     </footer>
-    <div class="popup">
+    <div class="popup" >
         <div class="popup-content">
             <div class="popup-header">
                 <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 48 48"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M44 24V9H4v30h20m7-3l5 4l8-10"/><path d="m4 9l20 15L44 9"/></g></svg>
@@ -156,6 +156,7 @@
         crossorigin="anonymous"></script>
 
     <script type="module" src="./assets/js/email.js"></script>
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
 </body>
 
 </html>

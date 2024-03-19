@@ -21,6 +21,7 @@
     padding-top: 15px;
     min-width: 400px;
     padding-right: 15px;
+    transition: 0.5s;
 }
 
 .condact-detail h4{
@@ -137,6 +138,7 @@ textarea:valid ~ label{
     display: none;
     align-items: center;
     justify-content: center;
+    transition: 5s;
 }
 .popup-content{
     background-color: #fff;
