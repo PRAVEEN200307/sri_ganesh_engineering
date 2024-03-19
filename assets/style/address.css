@@ -106,6 +106,10 @@ textarea:valid ~ label{
     padding: 10px 35px;
     border-radius: 12px;
 }
+#sendBtn:hover{
+    background-color: #134263;
+}
+
 .anchor-links{
     color: #000;
     text-decoration: none;
@@ -120,4 +124,49 @@ textarea:valid ~ label{
         width: 100%;
         height: 500px;
     }
+}
+
+
+/* popup */
+.popup{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.popup-content{
+    background-color: #fff;
+    height: 250px;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.popup-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.popup-header svg{
+    color:green;
+}
+
+#closeBtn{
+    background-color: green;
+    padding: 5px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-right:64px;
+}
+
+#closeBtn:hover{
+    background-color: rgb(14, 81, 14);
 }
